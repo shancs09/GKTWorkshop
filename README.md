@@ -14,3 +14,6 @@ https://github.com/watson-developer-cloud/assistant-toolkit/tree/master/integrat
  
 ##  Assistant API:
 https://cloud.ibm.com/apidocs/assistant-v2#message
+
+## Reference link for Developer Articles:
+https://developer.ibm.com/
