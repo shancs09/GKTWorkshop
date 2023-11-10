@@ -2,7 +2,7 @@ import os
 from flask import Flask, request, jsonify
 from llmservice_cloud_wx import generate_campaign
 from ibm_cloud_wd import query_discovery
-
+from ibm_cloud_wa import chat_with_assistant
 app = Flask(__name__)
 
 @app.route('/generate_campaign', methods=['POST'])
@@ -35,6 +35,20 @@ def query_discover_1():
     result = query_discovery(doc_text)
     # return result
     return jsonify({'result': result})
+
+
+@app.route('/chat_assistant', methods=['POST'])
+def chat_assistant():
+    try:
+        data = request.get_json()
+        print(data)
+        doc_text = data.get("text")
+    except Exception as e:
+        print("Error decoding JSON:", str(e))
+    print(doc_text)
+    result = chat_with_assistant(doc_text)
+    # return result
+    return result
 
 
 if __name__ == '__main__':
