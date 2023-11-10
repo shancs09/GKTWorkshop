@@ -1,0 +1,7 @@
+streamlit==1.26.0
+PyPDF2==2.12.1
+requests
+Flask
+python-dotenv
+ibm-cloud-sdk-core==3.16.7
+ibm-watson==7.0.0

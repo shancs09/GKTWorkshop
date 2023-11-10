@@ -1,0 +1,1236 @@
+{
+  "matching_results": 3,
+  "retrieval_details": {
+    "document_retrieval_strategy": "untrained"
+  },
+  "aggregations": [
+    {
+      "type": "term",
+      "field": "enriched_text.entities.text",
+      "name": "entities",
+      "results": [
+        {
+          "key": "1",
+          "matching_results": 3
+        },
+        {
+          "key": "2",
+          "matching_results": 3
+        },
+        {
+          "key": "3",
+          "matching_results": 3
+        },
+        {
+          "key": "4",
+          "matching_results": 3
+        },
+        {
+          "key": "5",
+          "matching_results": 3
+        },
+        {
+          "key": "6",
+          "matching_results": 3
+        },
+        {
+          "key": "7",
+          "matching_results": 3
+        },
+        {
+          "key": "2%",
+          "matching_results": 2
+        },
+        {
+          "key": "65",
+          "matching_results": 2
+        },
+        {
+          "key": "Age Group",
+          "matching_results": 2
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "document_id": "da32dd328c51bd2f53df8d695cf690dc",
+      "result_metadata": {
+        "collection_id": "59e814c7-182b-9338-0000-018bb770ccf4",
+        "document_retrieval_source": "search",
+        "confidence": 0.04827
+      },
+      "enriched_text": [
+        {
+          "entities": [
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.29640242,
+                  "location": {
+                    "end": 57,
+                    "begin": 15
+                  },
+                  "text": "Savings Account Company : Federal bank USP"
+                }
+              ],
+              "text": "Savings Account Company : Federal bank USP",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.81379217,
+                  "location": {
+                    "end": 235,
+                    "begin": 230
+                  },
+                  "text": "today"
+                }
+              ],
+              "text": "today",
+              "type": "Date"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.43530187,
+                  "location": {
+                    "end": 351,
+                    "begin": 333
+                  },
+                  "text": "High-Yield Savings"
+                }
+              ],
+              "text": "High-Yield Savings",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 444,
+                    "begin": 443
+                  },
+                  "text": "1"
+                }
+              ],
+              "text": "1",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 509,
+                    "begin": 508
+                  },
+                  "text": "2"
+                }
+              ],
+              "text": "2",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 545,
+                    "begin": 540
+                  },
+                  "text": "1.75%"
+                }
+              ],
+              "text": "1.75%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 548,
+                    "begin": 547
+                  },
+                  "text": "3"
+                }
+              ],
+              "text": "3",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 580,
+                    "begin": 579
+                  },
+                  "text": "4"
+                }
+              ],
+              "text": "4",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 647,
+                    "begin": 646
+                  },
+                  "text": "5"
+                }
+              ],
+              "text": "5",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.41267622,
+                  "location": {
+                    "end": 684,
+                    "begin": 676
+                  },
+                  "text": "Rs.1,000"
+                }
+              ],
+              "text": "Rs.1,000",
+              "type": "Money"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 687,
+                    "begin": 686
+                  },
+                  "text": "6"
+                }
+              ],
+              "text": "6",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.9618633,
+                  "location": {
+                    "end": 693,
+                    "begin": 689
+                  },
+                  "text": "FDIC"
+                }
+              ],
+              "text": "FDIC",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.76532394,
+                  "location": {
+                    "end": 718,
+                    "begin": 708
+                  },
+                  "text": "Rs.250,000"
+                }
+              ],
+              "text": "Rs.250,000",
+              "type": "Money"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 733,
+                    "begin": 732
+                  },
+                  "text": "7"
+                }
+              ],
+              "text": "7",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 776,
+                    "begin": 774
+                  },
+                  "text": "18"
+                },
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 824,
+                    "begin": 822
+                  },
+                  "text": "18"
+                }
+              ],
+              "text": "18",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.32291615,
+                  "location": {
+                    "end": 820,
+                    "begin": 811
+                  },
+                  "text": "Age Group"
+                }
+              ],
+              "text": "Age Group",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 827,
+                    "begin": 825
+                  },
+                  "text": "65"
+                }
+              ],
+              "text": "65",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.46053562,
+                  "location": {
+                    "end": 851,
+                    "begin": 836
+                  },
+                  "text": "M & F Geo Focus"
+                }
+              ],
+              "text": "M & F Geo Focus",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.2629659,
+                  "location": {
+                    "end": 948,
+                    "begin": 929
+                  },
+                  "text": "No - Yes Affiliates"
+                }
+              ],
+              "text": "No - Yes Affiliates",
+              "type": "Organization"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "parent_document_id": "da32dd328c51bd2f53df8d695cf690dc",
+        "customer_id": "IBMid-3100014VN6"
+      },
+      "enriched_html": [
+        {
+          "tables": []
+        }
+      ],
+      "extracted_metadata": {
+        "sha1": "37AC3FBD501F673977C5E8E43067E418257BB302",
+        "numPages": "1",
+        "filename": "fed_sample_sb.pdf",
+        "author": [
+          "Shanmugaraja Selvam"
+        ],
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[72.0,92.03997802734375,517.3558959960938,244.5799560546875]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,385]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,267.8599853515625,149.31600952148438,303.13995361328125]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[385,424]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,311.77996826171875,403.2199401855469,361.7599792480469]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[424,508]}},{\"page\":{\"page_number\":1,\"bbox\":[90.0199966430664,370.3999938964844,276.5720520019531,376.3999938964844]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[508,547]}},{\"page\":{\"page_number\":1,\"bbox\":[90.0199966430664,385.03997802734375,257.48004150390625,391.03997802734375]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[547,579]}},{\"page\":{\"page_number\":1,\"bbox\":[90.0199966430664,399.67999267578125,434.70794677734375,405.67999267578125]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[579,646]}},{\"page\":{\"page_number\":1,\"bbox\":[90.0199966430664,414.3399963378906,284.3800354003906,420.3399963378906]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[646,686]}},{\"page\":{\"page_number\":1,\"bbox\":[90.0199966430664,428.97998046875,317.56390380859375,434.97998046875]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[686,732]}},{\"page\":{\"page_number\":1,\"bbox\":[90.0199966430664,443.67999267578125,362.3679504394531,449.67999267578125]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[732,788]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,458.3199768066406,184.46401977539062,508.239990234375]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[788,864]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,531.52001953125,320.08795166015625,610.7799682617188]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[864,1037]}}],\"pages\":[{\"page_number\":0,\"height\":842.0,\"width\":595.0,\"origin\":\"TopLeft\"}]}",
+        "title": "",
+        "publicationdate": "2023-09-22"
+      },
+      "html": [
+        "<html><head><meta charset=\"UTF-8\"/><meta name=\"author\" content=\"[Ljava.lang.String;@ed61f783\"/><meta name=\"publicationdate\" content=\"2023-09-22\"/><meta name=\"numPages\" content=\"1\"/><title></title><style> .ArialMT_Black_12_0{font-size: 12.0pt; font-family: ArialMT; color: Black; } .Calibri_Black_12_0{font-size: 12.0pt; font-family: Calibri; color: Black; }</style></head><body><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"150.99200439453125\" y=\"92.03997802734375\" page=\"1\" height=\"6.0\">Product Brief: Savings Account </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"119.79200744628906\" y=\"121.32000732421875\" page=\"1\" height=\"6.0\">Company : Federal bank </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"25.35199737548828\" y=\"150.67999267578125\" page=\"1\" height=\"6.0\">USP: </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"438.4478454589844\" y=\"165.32000732421875\" page=\"1\" height=\"6.0\">Discover the power of smart saving with our High-Yield Savings Account. Earn competitive </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"448.06787109375\" y=\"179.9599609375\" page=\"1\" height=\"6.0\">interest rates and watch your savings grow effortlessly. Open your account online today and </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"175.7320098876953\" y=\"194.5999755859375\" page=\"1\" height=\"6.0\">start your financial journey with us! </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"103.29200744628906\" y=\"223.8800048828125\" page=\"1\" height=\"6.0\">Campaign Objective: </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"432.13201904296875\" y=\"238.5799560546875\" page=\"1\" height=\"6.0\">Drive new account openings for the High-Yield Savings Account through online channels. </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"80.01200866699219\" y=\"267.8599853515625\" page=\"1\" height=\"6.0\">Types of Assets: </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"51.09199523925781\" y=\"282.5\" page=\"1\" height=\"6.0\">Static: Yes </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"50.91199493408203\" y=\"297.13995361328125\" page=\"1\" height=\"6.0\">Video: No </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"64.89199829101562\" y=\"311.77996826171875\" page=\"1\" height=\"6.0\">Carousel: No </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"29.85199737548828\" y=\"341.1199951171875\" page=\"1\" height=\"6.0\">Note: </bbox></span></p><ul style=\"list-style-type: none;\"><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"90.0199966430664\" y=\"355.7599792480469\" height=\"6.000009536743164\" width=\"12.456001281738281\">1. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"108.0199966430664\" y=\"355.7599792480469\" height=\"6.0\" width=\"297.95201873779297\">Quick and easy online account opening with just a few clicks. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"90.0199966430664\" y=\"370.3999938964844\" height=\"6.000009536743164\" width=\"12.456001281738281\">2. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"108.0199966430664\" y=\"370.3999938964844\" height=\"6.0\" width=\"171.33202362060547\">High annual interest rate of 1.75%. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"90.0199966430664\" y=\"385.03997802734375\" height=\"6.000009536743164\" width=\"12.456001281738281\">3. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"108.0199966430664\" y=\"385.03997802734375\" height=\"6.0\" width=\"152.13201141357422\">No monthly maintenance fees. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"90.0199966430664\" y=\"399.67999267578125\" height=\"6.000009536743164\" width=\"12.456001281738281\">4. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"108.0199966430664\" y=\"399.67999267578125\" height=\"6.0\" width=\"329.45201873779297\">Access to online banking and mobile app for account management. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"90.0199966430664\" y=\"414.3399963378906\" height=\"6.000009536743164\" width=\"12.456001281738281\">5. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"108.0199966430664\" y=\"414.3399963378906\" height=\"6.0\" width=\"179.13201141357422\">Minimum initial deposit of Rs.1,000. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"90.0199966430664\" y=\"428.97998046875\" height=\"6.000009536743164\" width=\"12.456001281738281\">6. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"108.0199966430664\" y=\"428.97998046875\" height=\"6.0\" width=\"212.31200408935547\">FDIC insured up to Rs.250,000 per account. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"90.0199966430664\" y=\"443.67999267578125\" height=\"6.000009536743164\" width=\"12.456001281738281\">7. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"108.0199966430664\" y=\"443.67999267578125\" height=\"6.0\" width=\"257.1320114135742\">Account available for individuals aged 18 and above. </bbox></span></li></ul><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"110.49200439453125\" y=\"458.3199768066406\" page=\"1\" height=\"6.0\">Key Planning Pointers: </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"88.35200500488281\" y=\"472.9599914550781\" page=\"1\" height=\"6.0\">Age Group: 18-65 </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"74.37200927734375\" y=\"487.5999755859375\" page=\"1\" height=\"6.0\">Gender: M &amp; F </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"115.23200988769531\" y=\"502.239990234375\" page=\"1\" height=\"6.0\">Geo Focus: Nationwide </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"250.85202026367188\" y=\"531.52001953125\" page=\"1\" height=\"6.0\">Media Mix or Preferred Platform (Fixed/ROS/RON): </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"117.69200134277344\" y=\"546.219970703125\" page=\"1\" height=\"6.0\">Publishers: Yes/No - Yes </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"110.13200378417969\" y=\"560.8599853515625\" page=\"1\" height=\"6.0\">Affiliates: Yes/No - Yes </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"177.53201293945312\" y=\"590.1400146484375\" page=\"1\" height=\"6.0\">Device Mix (Desktop: Mobile Ratio): </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"197.15200805664062\" y=\"604.7799682617188\" page=\"1\" height=\"6.0\">Optimized for both desktop and mobile. </bbox></span></p></body></html>"
+      ],
+      "text": [
+        "Product Brief: Savings Account Company : Federal bank USP: Discover the power of smart saving with our High-Yield Savings Account. Earn competitive interest rates and watch your savings grow effortlessly. Open your account online today and start your financial journey with us! Campaign Objective: Drive new account openings for the High-Yield Savings Account through online channels. Types of Assets: Static: Yes Video: No Carousel: No Note: 1. Quick and easy online account opening with just a few clicks. 2. High annual interest rate of 1.75%. 3. No monthly maintenance fees. 4. Access to online banking and mobile app for account management. 5. Minimum initial deposit of Rs.1,000. 6. FDIC insured up to Rs.250,000 per account. 7. Account available for individuals aged 18 and above. Key Planning Pointers: Age Group: 18-65 Gender: M & F Geo Focus: Nationwide Media Mix or Preferred Platform (Fixed/ROS/RON): Publishers: Yes/No - Yes Affiliates: Yes/No - Yes Device Mix (Desktop: Mobile Ratio): Optimized for both desktop and mobile."
+      ],
+      "document_passages": [
+        {
+          "passage_text": "<em>Product</em> Brief: Savings Account Company : Federal bank <em>USP</em>: Discover the power of smart saving with our High-Yield Savings Account.",
+          "start_offset": 0,
+          "end_offset": 130,
+          "field": "text"
+        }
+      ],
+      "table_results_references": []
+    },
+    {
+      "document_id": "8c6719873b3b5ce2b0b37e1263d3df86",
+      "result_metadata": {
+        "collection_id": "59e814c7-182b-9338-0000-018bb770ccf4",
+        "document_retrieval_source": "search",
+        "confidence": 0.04779
+      },
+      "enriched_text": [
+        {
+          "entities": [
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.66235846,
+                  "location": {
+                    "end": 44,
+                    "begin": 15
+                  },
+                  "text": "Credit Card Promotion Company"
+                }
+              ],
+              "text": "Credit Card Promotion Company",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.6473722,
+                  "location": {
+                    "end": 63,
+                    "begin": 60
+                  },
+                  "text": "USP"
+                }
+              ],
+              "text": "USP",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.72038037,
+                  "location": {
+                    "end": 172,
+                    "begin": 164
+                  },
+                  "text": "cashback"
+                }
+              ],
+              "text": "cashback",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 234,
+                    "begin": 230
+                  },
+                  "text": "zero"
+                }
+              ],
+              "text": "zero",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.34128654,
+                  "location": {
+                    "end": 370,
+                    "begin": 342
+                  },
+                  "text": "Platinum Rewards Credit Card"
+                }
+              ],
+              "text": "Platinum Rewards Credit Card",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 467,
+                    "begin": 466
+                  },
+                  "text": "1"
+                }
+              ],
+              "text": "1",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 517,
+                    "begin": 516
+                  },
+                  "text": "2"
+                }
+              ],
+              "text": "2",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 568,
+                    "begin": 567
+                  },
+                  "text": "3"
+                }
+              ],
+              "text": "3",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8500811,
+                  "location": {
+                    "end": 581,
+                    "begin": 570
+                  },
+                  "text": "Cardholders"
+                }
+              ],
+              "text": "Cardholders",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 592,
+                    "begin": 590
+                  },
+                  "text": "2%"
+                }
+              ],
+              "text": "2%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 628,
+                    "begin": 626
+                  },
+                  "text": "1%"
+                }
+              ],
+              "text": "1%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 654,
+                    "begin": 653
+                  },
+                  "text": "4"
+                }
+              ],
+              "text": "4",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 660,
+                    "begin": 656
+                  },
+                  "text": "Zero"
+                }
+              ],
+              "text": "Zero",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.922716,
+                  "location": {
+                    "end": 685,
+                    "begin": 680
+                  },
+                  "text": "first"
+                }
+              ],
+              "text": "first",
+              "type": "Ordinal"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 693,
+                    "begin": 692
+                  },
+                  "text": "5"
+                }
+              ],
+              "text": "5",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.45391527,
+                  "location": {
+                    "end": 738,
+                    "begin": 731
+                  },
+                  "text": "50 days"
+                }
+              ],
+              "text": "50 days",
+              "type": "Duration"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 741,
+                    "begin": 740
+                  },
+                  "text": "6"
+                }
+              ],
+              "text": "6",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 802,
+                    "begin": 801
+                  },
+                  "text": "7"
+                }
+              ],
+              "text": "7",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 835,
+                    "begin": 831
+                  },
+                  "text": "2.5%"
+                }
+              ],
+              "text": "2.5%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 846,
+                    "begin": 845
+                  },
+                  "text": "8"
+                }
+              ],
+              "text": "8",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.39359984,
+                  "location": {
+                    "end": 885,
+                    "begin": 877
+                  },
+                  "text": "21 years"
+                }
+              ],
+              "text": "21 years",
+              "type": "Duration"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.25480464,
+                  "location": {
+                    "end": 908,
+                    "begin": 887
+                  },
+                  "text": "Key Planning Pointers"
+                }
+              ],
+              "text": "Key Planning Pointers",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.36263138,
+                  "location": {
+                    "end": 919,
+                    "begin": 910
+                  },
+                  "text": "Age Group"
+                }
+              ],
+              "text": "Age Group",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 923,
+                    "begin": 921
+                  },
+                  "text": "21"
+                }
+              ],
+              "text": "21",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 926,
+                    "begin": 924
+                  },
+                  "text": "65"
+                }
+              ],
+              "text": "65",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.4654777,
+                  "location": {
+                    "end": 950,
+                    "begin": 935
+                  },
+                  "text": "M & F Geo Focus"
+                }
+              ],
+              "text": "M & F Geo Focus",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.26305947,
+                  "location": {
+                    "end": 1047,
+                    "begin": 1028
+                  },
+                  "text": "No - Yes Affiliates"
+                }
+              ],
+              "text": "No - Yes Affiliates",
+              "type": "Organization"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "parent_document_id": "8c6719873b3b5ce2b0b37e1263d3df86",
+        "customer_id": "IBMid-3100014VN6"
+      },
+      "enriched_html": [
+        {
+          "tables": []
+        }
+      ],
+      "extracted_metadata": {
+        "sha1": "192C1A1FEF3AED6E587043B7B6BDC70316D2D473",
+        "numPages": "1",
+        "filename": "fed_sample_cc.pdf",
+        "author": [
+          "Shanmugaraja Selvam"
+        ],
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,92.05999755859375,516.2039794921875,259.219970703125]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,406]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,282.52996826171875,149.37600708007812,303.16998291015625]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[406,435]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,311.80999755859375,306.2779541015625,376.3699951171875]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[435,516]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,385.0099792480469,302.3640441894531,391.0099792480469]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[516,567]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,399.7699890136719,498.8519592285156,405.7699890136719]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[567,653]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,414.40997314453125,242.4480438232422,420.40997314453125]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[653,692]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,429.04998779296875,291.416015625,435.04998779296875]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[692,740]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,443.7099914550781,354.51202392578125,449.7099914550781]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[740,801]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,458.3499755859375,275.3040771484375,464.3499755859375]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[801,845]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,472.989990234375,273.8879699707031,478.989990234375]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[845,887]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,502.2699890136719,179.83201599121094,522.9099731445312]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[887,927]}},{\"page\":{\"page_number\":1,\"bbox\":[72.02400207519531,531.5499877929688,320.14794921875,654.8199462890625]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[927,1136]}}],\"pages\":[{\"page_number\":0,\"height\":842.0,\"width\":595.0,\"origin\":\"TopLeft\"}]}",
+        "title": "",
+        "publicationdate": "2023-09-27"
+      },
+      "html": [
+        "<html><head><meta charset=\"UTF-8\"/><meta name=\"author\" content=\"[Ljava.lang.String;@8130a771\"/><meta name=\"publicationdate\" content=\"2023-09-27\"/><meta name=\"numPages\" content=\"1\"/><title></title><style> .Calibri_Black_12_0{font-size: 12.0pt; font-family: Calibri; color: Black; }</style></head><body><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"186.93800354003906\" y=\"92.05999755859375\" page=\"1\" height=\"6.0\">Product brief: Credit Card Promotion </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"119.85800170898438\" y=\"121.3399658203125\" page=\"1\" height=\"6.0\">Company : Federal bank </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"25.391998291015625\" y=\"165.260009765625\" page=\"1\" height=\"6.0\">USP: </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"430.82386779785156\" y=\"179.89996337890625\" page=\"1\" height=\"6.0\">Introducing our new Platinum Rewards Credit Card! Get ready to experience unmatched </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"446.89195251464844\" y=\"194.65997314453125\" page=\"1\" height=\"6.0\">benefits, from cashback on everyday spending to exclusive travel perks, all with zero annual </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"328.07801818847656\" y=\"209.29998779296875\" page=\"1\" height=\"6.0\">fees. Apply online now and enjoy the convenience of a digital card! </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"103.26800537109375\" y=\"238.5799560546875\" page=\"1\" height=\"6.0\">Campaign Objective: </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"384.0279998779297\" y=\"253.219970703125\" page=\"1\" height=\"6.0\">Promote the Platinum Rewards Credit Card and encourage online applications. </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"79.98800659179688\" y=\"282.52996826171875\" page=\"1\" height=\"6.0\">Types of Assets: </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"51.0679931640625\" y=\"297.16998291015625\" page=\"1\" height=\"6.0\">Static: Yes </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"52.50799560546875\" y=\"311.80999755859375\" page=\"1\" height=\"6.0\">Video: Yes </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"66.42800903320312\" y=\"326.4499816894531\" page=\"1\" height=\"6.0\">Carousel: Yes </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"29.831993103027344\" y=\"355.72998046875\" page=\"1\" height=\"6.0\">Note: </bbox></span></p><ul style=\"list-style-type: none;\"><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"370.3699951171875\" height=\"6.0\" width=\"11.819999694824219\">1. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"370.3699951171875\" height=\"6.0\" width=\"225.11001586914062\">Fast and paperless online application process. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"385.0099792480469\" height=\"6.0\" width=\"11.819999694824219\">2. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"385.0099792480469\" height=\"6.0\" width=\"221.27001953125\">Credit limit based on applicant&apos;s credit score. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"399.7699890136719\" height=\"6.0\" width=\"11.819999694824219\">3. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"399.7699890136719\" height=\"6.0\" width=\"417.8800048828125\">Cardholders receive 2% cashback on grocery shopping and 1% on all other purchases. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"414.40997314453125\" height=\"6.0\" width=\"11.819999694824219\">4. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"414.40997314453125\" height=\"6.0\" width=\"161.27000427246094\">Zero annual fee for the first year. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"429.04998779296875\" height=\"6.0\" width=\"11.819999694824219\">5. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"429.04998779296875\" height=\"6.0\" width=\"210.35000610351562\">Interest-free grace period of up to 50 days. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"443.7099914550781\" height=\"6.0\" width=\"11.819999694824219\">6. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"443.7099914550781\" height=\"6.0\" width=\"273.3699951171875\">Exclusive travel discounts and access to airport lounges. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"458.3499755859375\" height=\"6.0\" width=\"11.819999694824219\">7. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"458.3499755859375\" height=\"6.0\" width=\"194.14999389648438\">Foreign transaction fee of 2.5% applies. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.02400207519531\" y=\"472.989990234375\" height=\"6.0\" width=\"11.819999694824219\">8. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.89199829101562\" y=\"472.989990234375\" height=\"6.0\" width=\"192.83001708984375\">Minimum age for application: 21 years. </bbox></span></li></ul><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"110.46800231933594\" y=\"502.2699890136719\" page=\"1\" height=\"6.0\">Key Planning Pointers: </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"88.26800537109375\" y=\"516.9099731445312\" page=\"1\" height=\"6.0\">Age Group: 21-65 </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"74.34800720214844\" y=\"531.5499877929688\" page=\"1\" height=\"6.0\">Gender: M &amp; F </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"115.14801025390625\" y=\"546.18994140625\" page=\"1\" height=\"6.0\">Geo Focus: Nationwide </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"251.0380096435547\" y=\"575.469970703125\" page=\"1\" height=\"6.0\">Media Mix or Preferred Platform (Fixed/ROS/RON): </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"117.697998046875\" y=\"590.1099853515625\" page=\"1\" height=\"6.0\">Publishers: Yes/No - Yes </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"110.10800170898438\" y=\"604.8699951171875\" page=\"1\" height=\"6.0\">Affiliates: Yes/No - Yes </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"177.5780029296875\" y=\"634.1799926757812\" page=\"1\" height=\"6.0\">Device Mix (Desktop: Mobile Ratio): </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.02400207519531\" width=\"197.2580108642578\" y=\"648.8199462890625\" page=\"1\" height=\"6.0\">Optimized for both desktop and mobile. </bbox></span></p></body></html>"
+      ],
+      "text": [
+        "Product brief: Credit Card Promotion Company : Federal bank USP: Introducing our new Platinum Rewards Credit Card! Get ready to experience unmatched benefits, from cashback on everyday spending to exclusive travel perks, all with zero annual fees. Apply online now and enjoy the convenience of a digital card! Campaign Objective: Promote the Platinum Rewards Credit Card and encourage online applications. Types of Assets: Static: Yes Video: Yes Carousel: Yes Note: 1. Fast and paperless online application process. 2. Credit limit based on applicant's credit score. 3. Cardholders receive 2% cashback on grocery shopping and 1% on all other purchases. 4. Zero annual fee for the first year. 5. Interest-free grace period of up to 50 days. 6. Exclusive travel discounts and access to airport lounges. 7. Foreign transaction fee of 2.5% applies. 8. Minimum age for application: 21 years. Key Planning Pointers: Age Group: 21-65 Gender: M & F Geo Focus: Nationwide Media Mix or Preferred Platform (Fixed/ROS/RON): Publishers: Yes/No - Yes Affiliates: Yes/No - Yes Device Mix (Desktop: Mobile Ratio): Optimized for both desktop and mobile."
+      ],
+      "document_passages": [
+        {
+          "passage_text": "<em>Product</em> brief: Credit Card Promotion Company : Federal bank <em>USP</em>: Introducing our new Platinum Rewards Credit Card!",
+          "start_offset": 0,
+          "end_offset": 114,
+          "field": "text"
+        }
+      ],
+      "table_results_references": []
+    },
+    {
+      "document_id": "83738cba55663df999a8e2795fc5e6d4",
+      "result_metadata": {
+        "collection_id": "59e814c7-182b-9338-0000-018bb770ccf4",
+        "document_retrieval_source": "search",
+        "confidence": 0.04681
+      },
+      "enriched_text": [
+        {
+          "entities": [
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 124,
+                    "begin": 78
+                  },
+                  "text": "https://personalloan.federalbank.co.in/#/entry"
+                }
+              ],
+              "text": "https://personalloan.federalbank.co.in/#/entry",
+              "type": "URL"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.86484313,
+                  "location": {
+                    "end": 379,
+                    "begin": 376
+                  },
+                  "text": "ROI"
+                }
+              ],
+              "text": "ROI",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.9195587,
+                  "location": {
+                    "end": 532,
+                    "begin": 529
+                  },
+                  "text": "NTB"
+                }
+              ],
+              "text": "NTB",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.90708965,
+                  "location": {
+                    "end": 540,
+                    "begin": 537
+                  },
+                  "text": "ETB"
+                }
+              ],
+              "text": "ETB",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 641,
+                    "begin": 640
+                  },
+                  "text": "1"
+                }
+              ],
+              "text": "1",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.40542394,
+                  "location": {
+                    "end": 716,
+                    "begin": 706
+                  },
+                  "text": "Aadhar OTP"
+                }
+              ],
+              "text": "Aadhar OTP",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 718,
+                    "begin": 717
+                  },
+                  "text": "2"
+                }
+              ],
+              "text": "2",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 750,
+                    "begin": 749
+                  },
+                  "text": "3"
+                }
+              ],
+              "text": "3",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 839,
+                    "begin": 838
+                  },
+                  "text": "4"
+                }
+              ],
+              "text": "4",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.5422314,
+                  "location": {
+                    "end": 887,
+                    "begin": 865
+                  },
+                  "text": "12 months to 60 months"
+                }
+              ],
+              "text": "12 months to 60 months",
+              "type": "Duration"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 931,
+                    "begin": 930
+                  },
+                  "text": "5"
+                }
+              ],
+              "text": "5",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 969,
+                    "begin": 963
+                  },
+                  "text": "11.99%"
+                }
+              ],
+              "text": "11.99%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 979,
+                    "begin": 973
+                  },
+                  "text": "17.49%"
+                }
+              ],
+              "text": "17.49%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 1023,
+                    "begin": 1022
+                  },
+                  "text": "6"
+                }
+              ],
+              "text": "6",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 1055,
+                    "begin": 1053
+                  },
+                  "text": "2%"
+                }
+              ],
+              "text": "2%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 1086,
+                    "begin": 1085
+                  },
+                  "text": "7"
+                }
+              ],
+              "text": "7",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.7651181,
+                  "location": {
+                    "end": 1099,
+                    "begin": 1088
+                  },
+                  "text": "Pre-closure"
+                }
+              ],
+              "text": "Pre-closure",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 1125,
+                    "begin": 1123
+                  },
+                  "text": "3%"
+                }
+              ],
+              "text": "3%",
+              "type": "Percent"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.20054233,
+                  "location": {
+                    "end": 1190,
+                    "begin": 1155
+                  },
+                  "text": "GST Key planning pointers Age Group"
+                }
+              ],
+              "text": "GST Key planning pointers Age Group",
+              "type": "Organization"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 1194,
+                    "begin": 1192
+                  },
+                  "text": "25"
+                }
+              ],
+              "text": "25",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.8,
+                  "location": {
+                    "end": 1197,
+                    "begin": 1195
+                  },
+                  "text": "55"
+                }
+              ],
+              "text": "55",
+              "type": "Number"
+            },
+            {
+              "model_name": "natural_language_understanding",
+              "mentions": [
+                {
+                  "confidence": 0.30202368,
+                  "location": {
+                    "end": 1245,
+                    "begin": 1231
+                  },
+                  "text": "M &F Geo Focus"
+                }
+              ],
+              "text": "M &F Geo Focus",
+              "type": "Organization"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "parent_document_id": "83738cba55663df999a8e2795fc5e6d4",
+        "customer_id": "IBMid-3100014VN6"
+      },
+      "enriched_html": [
+        {
+          "tables": []
+        }
+      ],
+      "extracted_metadata": {
+        "sha1": "80CA4C540EF3D4DCC2D8F71346F54F7E95691939",
+        "numPages": "1",
+        "filename": "fed_sample_pl.pdf",
+        "author": [
+          "Shanmugaraja Selvam"
+        ],
+        "file_type": "pdf",
+        "text_mappings": "{\"text_mappings\":[{\"page\":{\"page_number\":1,\"bbox\":[72.0,77.39996337890625,514.3079833984375,200.5999755859375]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[0,475]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,223.8800048828125,502.0079650878906,288.5]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[475,611]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,297.13995361328125,519.9359741210938,420.3399963378906]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[611,930]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,428.97998046875,519.3119506835938,434.97998046875]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[930,1022]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,443.67999267578125,372.3639221191406,449.67999267578125]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1022,1085]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,458.3199768066406,424.3759460449219,508.239990234375]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1085,1223]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,516.8800048828125,222.7920379638672,537.52001953125]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1223,1267]}},{\"page\":{\"page_number\":1,\"bbox\":[72.0,546.219970703125,320.08795166015625,610.7799682617188]},\"field\":{\"name\":\"text\",\"index\":0,\"span\":[1267,1401]}}],\"pages\":[{\"page_number\":0,\"height\":842.0,\"width\":595.0,\"origin\":\"TopLeft\"}]}",
+        "title": "",
+        "publicationdate": "2023-09-21"
+      },
+      "html": [
+        "<html><head><meta charset=\"UTF-8\"/><meta name=\"author\" content=\"[Ljava.lang.String;@b721e0ec\"/><meta name=\"publicationdate\" content=\"2023-09-21\"/><meta name=\"numPages\" content=\"1\"/><title></title><style> .Calibri_Black_12_0{font-size: 12.0pt; font-family: Calibri; color: Black; }</style></head><body><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"143.37200927734375\" y=\"77.39996337890625\" page=\"1\" height=\"6.0\">Product brief: Personal loan </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"119.79200744628906\" y=\"92.03997802734375\" page=\"1\" height=\"6.0\">Company : Federal bank </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"28.05199432373047\" y=\"121.32000732421875\" page=\"1\" height=\"6.0\">USP: </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"445.01995849609375\" y=\"136.03997802734375\" page=\"1\" height=\"6.0\">The Digital Platform https://personalloan.federalbank.co.in/#/entry is an end-to-end digital </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"429.65985107421875\" y=\"150.67999267578125\" page=\"1\" height=\"6.0\">platform which enables the interested prospects to avail personal loans for their various </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"436.7639465332031\" y=\"165.32000732421875\" page=\"1\" height=\"6.0\">needs in the best ROIs. The digital platform analyses the proposal and bases on the codes </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"433.9918212890625\" y=\"179.9599609375\" page=\"1\" height=\"6.0\">and credit policies the eligible loan amount, ROI will be automatically calculated, and the </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"255.35202026367188\" y=\"194.5999755859375\" page=\"1\" height=\"6.0\">disbursement of loan can be done in just few clicks. </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"432.719970703125\" y=\"223.8800048828125\" page=\"1\" height=\"6.0\">Campaign Objective: Disbursement of Personal Loans to NTB and ETB through the digital </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"100.59201049804688\" y=\"238.5799560546875\" page=\"1\" height=\"6.0\">personal loan portal </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"82.71200561523438\" y=\"267.8599853515625\" page=\"1\" height=\"6.0\">Types of Assets: </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"51.391998291015625\" y=\"282.5\" page=\"1\" height=\"6.0\">Static: yes </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"50.071998596191406\" y=\"297.13995361328125\" page=\"1\" height=\"6.0\">Video:yes </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"64.052001953125\" y=\"311.77996826171875\" page=\"1\" height=\"6.0\">Carousel:yes </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"32.61199951171875\" y=\"341.1199951171875\" page=\"1\" height=\"6.0\">Note: </bbox></span></p><ul style=\"list-style-type: none;\"><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.0\" y=\"355.7599792480469\" height=\"6.0\" width=\"11.772003173828125\">1. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.77200317382812\" y=\"355.7599792480469\" height=\"6.0\" width=\"388.9800109863281\">No manual documentation. Only e-sign of loan documents through Aadhar OTP </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.0\" y=\"370.3999938964844\" height=\"6.0\" width=\"11.772003173828125\">2. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.77200317382812\" y=\"370.3999938964844\" height=\"6.0\" width=\"144.3800048828125\">Loan amount up to Rs. 5 Lacs </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.0\" y=\"385.03997802734375\" height=\"6.0\" width=\"11.772003173828125\">3. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.77200317382812\" y=\"385.03997802734375\" height=\"6.0\" width=\"438.8399963378906\">Maximum loan amount is arrived through bureau data / salary statement of the customer </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.0\" y=\"399.67999267578125\" height=\"6.0\" width=\"11.772003173828125\">4. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.77200317382812\" y=\"399.67999267578125\" height=\"6.0\" width=\"399.8880310058594\">Loan tenure ranges from 12 months to 60 months depending on the profile of the </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"50.43199920654297\" y=\"414.3399963378906\" page=\"1\" height=\"6.0\">customer. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.0\" y=\"428.97998046875\" height=\"6.0\" width=\"11.772003173828125\">5. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.77200317382812\" y=\"428.97998046875\" height=\"6.0\" width=\"438.2999572753906\">Interest rates ranges between 11.99% to 17.49%, fixed throughout the tenure of the loan. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.0\" y=\"443.67999267578125\" height=\"6.0\" width=\"11.772003173828125\">6. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.77200317382812\" y=\"443.67999267578125\" height=\"6.0\" width=\"291.2799987792969\">Processing Fee collected is 2% of the loan amount plus GST. </bbox></span></li><li><span class=\"number\"><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"72.0\" y=\"458.3199768066406\" height=\"6.0\" width=\"11.772003173828125\">7. </bbox></span></span><span class=\"Calibri_Black_12_0\"><bbox page=\"1\" x=\"83.77200317382812\" y=\"458.3199768066406\" height=\"6.0\" width=\"343.32000732421875\">Pre-closure charge is collected at 3% of the outstanding balance + GST </bbox></span></li></ul><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"107.73200988769531\" y=\"487.5999755859375\" page=\"1\" height=\"6.0\">Key planning pointers </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"208.85202026367188\" y=\"502.239990234375\" page=\"1\" height=\"6.0\">Age Group: 25-55, only salaried customers </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"90.63200378417969\" y=\"516.8800048828125\" page=\"1\" height=\"6.0\">Gender: M &amp;F </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"153.5120086669922\" y=\"531.52001953125\" page=\"1\" height=\"6.0\">Geo Focus: Pin codes attached. </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"253.552001953125\" y=\"546.219970703125\" page=\"1\" height=\"6.0\">Media Mix or Preferred Platform (Fixed/ROS/RON): </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"117.51200866699219\" y=\"575.5\" page=\"1\" height=\"6.0\">Publishers: Yes/No : yes </bbox></span><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"109.95201110839844\" y=\"590.1400146484375\" page=\"1\" height=\"6.0\">Affiliates: Yes/No : yes </bbox></span></p><p text-alignment=\"left\"><span class=\"Calibri_Black_12_0\"><bbox x=\"72.0\" width=\"174.95201110839844\" y=\"604.7799682617188\" page=\"1\" height=\"6.0\">Device Mix (Desktop: Mobile ratio): </bbox></span></p></body></html>"
+      ],
+      "text": [
+        "Product brief: Personal loan Company : Federal bank USP: The Digital Platform https://personalloan.federalbank.co.in/#/entry is an end-to-end digital platform which enables the interested prospects to avail personal loans for their various needs in the best ROIs. The digital platform analyses the proposal and bases on the codes and credit policies the eligible loan amount, ROI will be automatically calculated, and the disbursement of loan can be done in just few clicks. Campaign Objective: Disbursement of Personal Loans to NTB and ETB through the digital personal loan portal Types of Assets: Static: yes Video:yes Carousel:yes Note: 1. No manual documentation. Only e-sign of loan documents through Aadhar OTP 2. Loan amount up to Rs. 5 Lacs 3. Maximum loan amount is arrived through bureau data / salary statement of the customer 4. Loan tenure ranges from 12 months to 60 months depending on the profile of the customer. 5. Interest rates ranges between 11.99% to 17.49%, fixed throughout the tenure of the loan. 6. Processing Fee collected is 2% of the loan amount plus GST. 7. Pre-closure charge is collected at 3% of the outstanding balance + GST Key planning pointers Age Group: 25-55, only salaried customers Gender: M &F Geo Focus: Pin codes attached. Media Mix or Preferred Platform (Fixed/ROS/RON): Publishers: Yes/No : yes Affiliates: Yes/No : yes Device Mix (Desktop: Mobile ratio):"
+      ],
+      "document_passages": [
+        {
+          "passage_text": "<em>Product</em> brief: Personal loan Company : Federal bank <em>USP</em>: The Digital Platform https://personalloan.federalbank.co.in/#/entry is an end-to-end digital platform which enables the interested prospects to avail personal loans for their various needs in the best ROIs.",
+          "start_offset": 0,
+          "end_offset": 263,
+          "field": "text"
+        }
+      ],
+      "table_results_references": []
+    }
+  ],
+  "table_results": []
+}
