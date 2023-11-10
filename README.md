@@ -17,3 +17,6 @@ https://cloud.ibm.com/apidocs/assistant-v2#message
 
 ## Reference link for Developer Articles:
 https://developer.ibm.com/
+
+## Sample Streamlit app - Invokes WatsonsDiscovery & Watsonx
+https://github.com/Akashabhilash/Form-16-entity-extraction
